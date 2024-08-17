@@ -5,3 +5,8 @@ const palindrome = (str) =>{
     return reversed === str;
 }
 console.log(palindrome('level'));
+
+
+function myFunction(obj, key) {
+    return obj[key]; // Return the value corresponding to the provided key
+  }
