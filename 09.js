@@ -17,3 +17,10 @@ function myFunction(obj, key) {
         return 'Odd'
     }
 }
+
+// testing  the function
+const palindrome2 = (str) =>{
+    const reversed = str.split('').reverse().join('')
+    return reversed === str;
+}
+console.log(palindrome2('Love'));
